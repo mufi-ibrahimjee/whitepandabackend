@@ -11,3 +11,4 @@ step 1- Signup ,
 step 2 - login
 step 3 - check other routes - addcars, available cars, book cars, carmodelupdate, modifycar(DELETE CAR)
         
+command to run - node server
