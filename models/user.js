@@ -3,7 +3,7 @@ const { Schema, model } = mongoose;
 const jwt = require('jsonwebtoken');
 // const validator = require('validator');
 const _ = require('lodash');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const userSchema = new Schema({
     name: {
         type: mongoose.Schema.Types.String,
